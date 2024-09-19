@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+body {
+  background-color: white;
+  cursor: default;
+  font-family:'Lucida Sans', sans-serif;
+};
+
+/* КЛАССЫ ПОД БЛОЧНОЕ ОТОБРАЖЕНИЕ */
+
+.cardContainer {
+  display: flex;
+}
+
+.iconContainer {
+  text-align: right;
+  padding-right: 50px;
+  padding-top: 15px;
+}
+
+.material-icons {
+  color: grey;
+  font-size: 50px;
+}
+
+.allCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 120px;
+  justify-content: center;
+}
+
+.liCardContainer {
+  list-style-type: none;
+  line-height: 0;
+  border-radius: 10px;
+  box-shadow: 1px 15px 20px grey;
+}
+
+.cardName{
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  text-transform: uppercase;
+  font-size: x-large;
+  width: 300px;
+  height: 40px;
+}
+
+.cardPrice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  font-size: large;
+  width: 50%;
+  height: 50px;
+  color: red;
+  border-radius: 10px;
+}
+
+.cardColor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  width: 300px;
+  height: 40px;
+  color: grey;
+}
+
+.cardImg {
+  width: 300px;
+  height: 300px;
+}
+
+.cardFooterContainer {
+  display: flex;
+}
+
+.cardButtonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  width: 50%;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.cardButton {
+  color: red;
+  background-color: #f5f5f5;
+  border: 1px solid red;
+  border-radius: 10px;
+  padding: 5px;
+  font-weight: bolder;
+}
+
+/* КЛАССНЫ ПО ОТОБРАЖЕНИЕ СПИСКОМ */
+
+.allItemContainer {
+  margin-bottom: 100px;
+}
+
+.liItemContainer {
+  list-style-type: none;
+  line-height: 0;
+}
+
+.itemContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.itemName {
+  display: flex;
+  background-color: #f5f5f5;
+  width: 20%;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: x-large;
+}
+
+.itemColor {
+  display: flex;
+  background-color: #f5f5f5;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  color: grey;
+}
+
+.itemPrice {
+  display: flex;
+  background-color: #f5f5f5;
+  width: 20%;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  color: red;
+}
+
+.itemButtonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  width: 20%;
+}
+
+.itemImg {
+  width: 300px;
+  height: 300px;
+}
+
+.itemButton {
+  color: red;
+  background-color: #f5f5f5;
+  border: 1px solid red;
+  border-radius: 10px;
+  padding: 5px;
+  font-weight: bolder;
+}
